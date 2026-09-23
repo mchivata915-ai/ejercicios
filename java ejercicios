@@ -1,0 +1,19 @@
+class Persona {
+
+    // Método
+    void saludar() {
+        System.out.println("¡Hola! Bienvenido a Java.");
+    }
+}
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        // Crear un objeto
+        Persona persona1 = new Persona();
+
+        // Llamar al método
+        persona1.saludar();
+    }
+}
