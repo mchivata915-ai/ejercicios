@@ -1,0 +1,6 @@
+if edad >= 18 and tiene_identificacion:
+    print("Puede ingresar.")
+elif edad >= 18:
+    print("Debe presentar identificación.")
+else:
+    print("No puede ingresar.")
